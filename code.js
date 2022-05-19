@@ -25,10 +25,18 @@ const MLetters = (value) => {
     return _.startsWith(value, "m")
 }
 
-        //ex8
-        const ObjLetters = (object) => {
-            return  _.keys(object) }
-            console.log(ObjLetters({
-                miki: "handsome",
-                shon: "adorable"
-            }));
+//ex8
+const ObjLetters = (object) => {
+    return _.keys(object)
+}
+
+
+            //ex9
+            const ObjaLetters = (object) => _.keys(object) 
+
+            console.log(ObjaLetters({ miki:"handsome", shon:"adorable", tomer:"man"}))
+
+
+
+            //ex10
+            
